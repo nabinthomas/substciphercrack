@@ -85,4 +85,4 @@ def runDecrypt(cipherText):
 if __name__ == '__main__':
     runDecrypt(sampleCipherText);
     if (len (sys.argv) > 1):
-        runDecrypt(sys.argv[1]);
+        runDecrypt(sys.argv[1].upper());
